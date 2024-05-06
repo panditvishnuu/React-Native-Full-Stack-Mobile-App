@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "FirstApp",
+    "scheme": "FirstApp",
     "slug": "FirstApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,6 +26,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
